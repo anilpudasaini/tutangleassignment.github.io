@@ -1,161 +1,226 @@
 .container {
-	background: rgba(255,255,255);
+	background: rgba(255,255,255,1);
+/*	width: 100%;*/
 }
 
 .head-wrapper{
 	
-	background-color: #7dd9e8;
-	width: 1002px;
+	background-color:#7dd9e8;
+	min-width: 1002px;
 	margin: 0 auto;
 
+	/*padding-top: 20px;*/
+	/*line-height: px;*/
+/*	height: 85px;
+*/
 }
 
 .head-top{
 	background-color: #7dd9e8;
-	width: 1002px;
+	width: 58.625em;
+	margin : 0 auto	;
+	/*height: 85px;*/
 }
 
 .head-top-left{
-	width: 822px;
+	width:80.810234%;
 	background-color: #7dd9e8;
 	float:left;
-	
+
 }
 
 .logo{
-	width: 224px;
-	position: left;
-	padding-top: 15px;
+	width: 29.287598%;
+	float: left;
+	padding-top: 20px;
+	padding-left: 2px;
 	/*background-color: green;*/
 
 }
 
 .search{
-	width: 598px;
-	float: right;
-	/*background-color: red;*/
-	
-
-
-
-}
-.searchbutton {
 	float:left;
-	
-	width: 198px;
-	
-	
+	padding: 40px 24px 11px;
+	width: 44.854881%;
+	/*background-color:red; */
+	/*margin-top: 40px;*/
+	/*background-color: red;*/
+	/*margin-right: 24px;*/
 }
-.txtinput{
-	width: 167px;
-	background-color: #7dd9e8;
-	float: left;
-	padding-left: 5px;
-	
-
-}
-
-
 
 
 .head-top-right{
-	width: 180px;
-	background-color: #7dd9e8;
+	width: 19.186765%;
+	/*background-color: pink;*/
 	float: right;
 	padding-top: 21px;
+	/*margin-left: 1px;*/
 
 }
 
-.head-bottom{
-	width:1002px;
-	
+.header-bottom{
+
+	/*width:100%;*/
+	/*height: 40px;*/
+	background: #f5f5f5;
 	margin: 0 auto;
-
 }
-.menu {
+.header-bottom-align{
+	width: 58.625em;
+	margin: 0 auto;
+}
+.menu{
 	float: left;
-	width: 650px;
-	background-color: yellow;
+	width: 63.965884%;
+	text-align: center;
+	/*background-color: #f5f5f5*/
+	/*background-color: pink;*/
 }
+
 .notification {
 	float: right;
-	width: 352px;
-	background-color: green;
+	width:31.982942%;
+	/*background-color: #f5f5f5;*/
+	 
+	padding-top: 11px;
+
+	/*background-color: green;*/
+
+	/*padding*/
+}
+.invite-box{
+	width: 46.666667%;
+	float:left;
+
+}
+.friend-box{
+	width: 43.333333%;
+	float: right;
 }
 
-.col3-right {
-	width: 1002px;
-	margin: 0 auto;
+.col3-right{
+	min-width: 1002px;
+}
 
+
+
+.col3-right-wrapper{
+	/*background-color: red;*/
+	width: 58.625em;
+	margin: 0 auto;
+	/*padding-top:50px;*/
+	/*background-color: white;*/
+	background-image: url("../images/body-bg.png");
+	margin-top:28px;
+	margin-bottom: 28px;
+	/*padding-bottom: 10px;*/
 }
 .col3 {
-	width: 800px;
+	width: 80.810234%;
 	float: left;
+	margin: 0 auto;
 
 }
-.img {
+/*.img {
 	width: 70px;
 	float: left;
-}
+}*/
 
 .site{
-	width: 180px;
+	width: 25.725593%;
 	float: left;
+/*	border-bottom: : 5px solid red;*/
 }
-.site-top-title{
-	background-color: #7DD8E8;
-
-}
-.site-top-list{
-	background-color:#b8babc; 
-}
-.site-bottom-title{
-	background-color:#7DD8E8; 
-}
-.site-bottom-list {
-	background-color:#b8babc; 
-}
+/*
 .tablets{
 	background-color:#b8babc;
-	font-size: 20px; 
-}
+	font-size: 15px; 
+}*/
 
 .main-site{
-	width:620px;
+	width:68.282321%;
 	background-color:white;
 	float: right;
+	padding: 0 25px 0 0;
+	
 
 }
-
-.right {
-	width: 180px;
-	float: right;
+.entry-tabs{
+	width: 100%;
 }
-
-.right-title{
-	background-color: #7DD8E8;
+.tab-section{
+	width: 100%;
 }
-.right-bottom{
-	font-size: 16px;
-	background-color: #b8babc;
+.all-entries{
+	width: 49.806949%;
 }
-
-.footer {
-	background-color: #4c4d4f;
-	width: 1002px;
-	margin: 0 auto;
+.subscribe{
+	width: 49.806949%; 
 }
-.footer-left{
+.dashboard{
+	/*width: 518px;*/
+	width:100%;
+	/*background-color: red;*/
+}
+.dashboard-left{
+	/*width: 70px;*/
+	width: 13.51351351%;
 	float: left;
 }
-.footer-right{
+.dashboard-right{
+	/*width: 438px;*/
+	width: 84.555984%;
 	float: right;
+	margin-left:10px;
+	
+}
+
+.right-column{
+	width:18.869936%;
+	float: right;
+	background-color: red;
+}
+
+
+.footer {
+	background-color: #727272;
+	min-width:1002px;
+	margin: 0 auto;
+
+}
+.footer-wrapper
+{
+	
+	width: 58.625em;
+	margin: 0 auto;
+	background-color: #727272;
+
+}
+.footer-left{
+	width: 68%;
+	float: left;
+	/*background-color: purple;*/
+
+}
+.footer-right{
+	width: 30%;
+	float: right;
+	/*background-color: red;*/
+	/*margin: 0 auto;*/
 }
 
 .clearfix::before, .clearfix::after{
 	content:"";
 	display: table;	
-	clear:   both;	
+	clear:   both;
+	overflow: auto;	
 }
 
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
 
